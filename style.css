@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width:100%;
+    
+
+}
+
+.main {
+    background-image: url(Assets/Images/Background.jpg);
+    height: 70vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    max-width: 164px;
+    position: relative;
+    z-index: 10;
+    width: 200px;
+    height: 40px;
+}
+
+nav {
+    /* background-color:red; */
+    height: 62px;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    height: calc(100% - 62px);
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.text> :nth-child(1) {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+}
+
+.seperation {
+    background-color: rgb(67, 65, 65);
+    height: 7px;
+}
+
+.btn {
+    padding: 8px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff;
+    padding: 12px 23px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.main input {
+    padding: 12px 45px;
+    background-color: transparent;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    border: 1px solid rgba(180, 176, 176, 0.5),
+}
+
+.btn-english {
+    border-color: #565454;
+    padding: 6px 23px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin: 0 8px;
+
+}
+
+
+.one{
+    color: #fff;
+    margin: 23px;
+    display: flex;
+    max-height: 60vh;
+    height: 60vh;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    position:relative;
+}
+.image img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
+}
+.image video{
+    position: absolute;
+    top: 67px;
+    left: 52px;
+    width: 30vw;    
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    /* gap: 23px; */
+    font-family:  "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 34px 0 ;
+    
+}
+.first> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+.first> :nth-child(2) {
+        font-size: 24px;
+        font-weight: 400;
+}
+.first> :nth-child(3) {
+        font-size: 24px;
+        font-weight: 400;
+}
+
+.second{
+    color: #fff ;
+    display: flex;
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+
+}
+.second> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+.second> :nth-child(2){
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    margin-bottom:18px;
+
+}
+.second> :nth-child(3){
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+.second> :nth-child(4){
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+.second> :nth-child(5){
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq{
+    color: #fff;
+    background-color: black;
+    padding: 24px;
+    margin: auto;
+    max-width: 80vw;
+
+    
+}
+.faq h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu", sans-serif";
+}
+.faqbox:hover {
+    background-color: #555454;
+}
+.faqbox{
+    background-color:#2d2d2d; 
+
+     margin: 30px;
+    display: flex;
+    padding: 28px;
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif";
+    position: relative;
+    z-index: 10;
+}
+footer{
+    color: #fff;
+    padding: 25px 1px;
+}
+footer span {
+    margin: 2px 19vw;
+    text-align: center;
+}
+.footer{
+    display: grid;
+    padding: 34px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #fff;
+    max-width: 60vw;
+    margin: auto;
+    max-height: 70vh;
+   
+    /* gap: 102px; */
+    
+    
+}
+footer a{
+    color: #fff;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    color: #fff;
+    
+    
+    
+}
